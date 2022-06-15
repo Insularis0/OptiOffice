@@ -1,0 +1,143 @@
+*{
+    text-align: center;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+
+#generalDiv{
+    background-color: hsl(216, 93%, 83%);
+    
+    width: 1200px;
+    height: 900px;
+    
+    position: relative;
+    left: 340px;
+
+    border-radius: 3%;
+
+}
+
+#menu{
+    position: absolute;
+    left: 20px;
+}
+
+#up{
+    background-color: rgb(20, 59, 145);
+
+    width: 1200px;
+
+    color: beige;
+    font-size: 20;
+
+    padding-top: 20px;  
+    padding-bottom: 20px;
+
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+#logo{
+    position:relative;
+    width: 150px;
+    border-radius: 55%;
+
+    top: 40;
+
+}
+
+#login{
+   
+    background-color: rgb(255, 255, 255);
+    
+    width: 900px;
+    height: 800px;
+
+    position: absolute;
+    left: 150px;
+    top: 85;
+
+    border-radius: 4%;
+}
+
+#forms{
+    padding-top: 110;
+}
+
+#forgetPass{
+    position: relative;
+    left: 122;
+    top: 7;
+    font-size: 75%;
+}
+
+.inputts{
+    width: 350;
+    text-shadow: 100;
+    margin-top: 18;
+
+    text-align: left;
+}
+
+#SignUp{
+    font-size: 85%;
+}
+
+::placeholder {
+    color: rgb(117, 171, 241);
+    text-align: left;
+}
+
+.titlesForms{
+
+    position: absolute;
+    left: 275;   
+    
+    text-align: left;
+
+}
+
+#regis{
+    padding-bottom: 40;
+}
+
+#line{
+    position: fixed;
+    right: 880;
+    top: 320;
+
+    width: 200;
+    height: 2;
+    background-color: black;
+}
+
+#submit{
+    position: absolute;
+    left: 274;
+
+
+    background-color: hsl(216, 93%, 83%);
+    border: 0;
+    padding: 5;
+    color: aliceblue;
+    font-size: 14;
+    
+}
+
+#loginn{
+    position: relative;
+    left: 92;
+    top: 8;
+    
+    font-size: 13;
+
+}
